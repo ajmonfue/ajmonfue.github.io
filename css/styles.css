@@ -1,10 +1,13 @@
-* {
+*,h1 {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 body {
   font-family: "Open Sans";
+}
+a {
+    text-decoration: none;
 }
 header.mean {
   height: 100vh;
@@ -23,7 +26,7 @@ header.mean nav {
 nav.fixed {
   width: 100%;
   position: fixed;
-
+  background-color: rgba(0,0,0,.5);
 }
 nav.fixed a {
   color: #fff;
@@ -131,4 +134,142 @@ nav.fixed a {
   font-weight: 400;
   font-size: 15px;
   margin-top: 10px;
+  line-height: 20px;
+}
+
+/*Estilos de sección*/
+
+/* ABOUT ME*/
+.about-me {
+    text-align: center;
+}
+.about-me .photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: gray;
+    overflow: hidden;
+    margin-top: -35px;
+    display: inline-block;
+}
+.about-me .photo img {
+    width: 100%;
+    height: auto;
+}
+.about-me .greet {
+    width: 100%;
+    color: #333333;
+    width: 90%;
+    display: inline-block;
+}
+.about-me h1 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.about-me .greet p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 15px 0px 20px;
+}
+
+/* end ABOUT ME*/
+
+.separation {
+    width: 40px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #333;
+
+
+
+}
+
+/* KNOWLADGE */
+
+.knowladge {
+    background-color: #FAFAFA;
+    color: #333;
+    height: 320px;
+    display: inline-block;
+    padding: 0px 50px;
+    position: relative;
+}
+.knowladge .logos {
+    width: 30%;
+    height: 100%;
+
+    position: absolute;
+}
+.knowladge .logos.left {
+    top:0px;
+    left: 0px;
+    background:
+
+        url(../img/html5.png) top no-repeat,
+        url(../img/css.png) center no-repeat,
+        url(../img/js.png) bottom no-repeat;
+    background-size: 70px 70px ;
+    opacity: .4;
+}
+
+.knowladge .logos.right {
+    top:0px;
+    right: 0px;
+    background:
+
+        url(../img/nodejs.png) top no-repeat,
+        url(../img/angular.svg) center no-repeat,
+        url(../img/ruby.png) bottom no-repeat;
+    background-size: 70px 70px ;
+    opacity: .4;
+}
+.knowladge .text {
+
+
+    z-index: 10px;
+    position: relative;
+}
+.knowladge h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.knowladge p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 15px 0 20px;
+}
+
+/* MY QUEST */
+
+.my-quest {
+    background-color: #4A4A4A;
+    height: 320px;
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+.my-quest h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.my-quest p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 15px 0 20px;
+    font-weight: 300;
+}
+.my-quest a {
+    color: #179D9C;
+    font-size: 15px;
+    font-weight: 300;
+}
+.my-quest a span {
+    vertical-align: middle;
+}
+.my-quest a .fa-angle-right {
+    margin-left: 5px;
+    font-size: 25px;
+    vertical-align: middle;
 }
