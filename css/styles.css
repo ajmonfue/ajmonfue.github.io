@@ -34,14 +34,14 @@ nav.fixed a {
   color: #fff;
 }
 .container {
-  width: 100%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
   max-width: 1000px;
 }
-header.mean nav .container {
-    width: 90%;
-
+.justify-container {
+    width: 100%;
+    max-width: 1000px;
 }
 .flex {
   display: flex;
@@ -124,7 +124,7 @@ header.mean nav .flex {
 }
 
 .header-body .presentation {
-  width: 240px;
+  width: 280px;
   height: 140px;
   border: 1px solid #fff;
   position: relative;
@@ -139,6 +139,8 @@ header.mean nav .flex {
   font-size: 12px;
 }
 .presentation p {
+    display: inline-block;
+    width: 240px;
   font-weight: 400;
   font-size: 15px;
   margin-top: 10px;
@@ -159,7 +161,13 @@ header.mean nav .flex {
     color: #333333;
     width: 90%;
     display: inline-block;
+    margin-bottom: 20px;
 
+}
+.greet .content {
+    width: 90%;
+    display: inline-block;
+    max-width: 380px;
 }
 .greet .photo {
     width: 70px;
@@ -182,7 +190,7 @@ header.mean nav .flex {
 .greet p {
     font-size: 15px;
     line-height: 22px;
-    margin: 15px 0px 20px;
+    margin-top: 15px;
 }
 
 
@@ -285,12 +293,12 @@ header.mean nav .flex {
 #projects {
     color: #333;
     text-align: center;
+    margin: 20px 0px;
 }
 #projects header {
 
     width: 100%;
-
-    margin: 20px 0px;;
+    margin-bottom: 20px;
 
 }
 #projects header h1 {
@@ -369,7 +377,9 @@ header.mean nav .flex {
 }
 #contact form {
     margin-top: 20px;
-    width: 100%;
+    width: 95%;
+    display: inline-block;
+    max-width: 500px;
 }
 #contact form input {
     height: 30px;
@@ -381,11 +391,12 @@ header.mean nav .flex {
     border-radius: 5px;
     padding: 5px;
     border: 1px solid rgba(151, 151, 151 , .6);
+    width: 100%;
 }
 #contact form textarea {
 
     height: 200px;
-    width: 250px;
+
 
     resize: none;
 }
@@ -416,7 +427,39 @@ header.mean nav .flex {
     color: #fff;
     background-color: #179D9C;
     cursor: pointer;
+
 }
 #contact form input[type="submit"]:active {
     background-color: #0B5857;
+}
+
+@media screen and (min-width: 650px){
+    .about-me  .greet {
+        margin-bottom: 50px;
+    }
+    .about-me .knowladge, .about-me .my-quest {
+        flex-basis: 50%;
+        display: flex;
+        align-items: center;
+
+    }
+    .about-me .knowladge h2 {
+        display: none;
+
+    }
+
+    .about-me .my-quest {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 300px;
+
+    }
+    .about-me .my-quest h2 {
+        display: none;
+    }
+    #projects {
+        margin-top: 50px;
+    }
+
 }
