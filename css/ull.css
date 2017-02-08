@@ -1,0 +1,51 @@
+header.courses-header{
+    background: #973689;
+    height: 480px;
+}
+.header-body {
+    background: url("../img/ull_logo.png"), linear-gradient(-90deg, transparent, rgba(255,255,255,.2) ,transparent );
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px 10px;
+    position: relative;
+    height: 200px;
+
+}
+.header-body h1 {
+ font-size: 15px;
+
+}
+.header-body p {
+
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 20px;
+
+}
+section.in-process {
+    background-color: #FFF;
+    color: #AAA;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+section.in-process .fa-cogs {
+    font-size: 100px;
+    color: #DADADA;
+}
+section.in-process span {
+
+
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #AAA;
+}

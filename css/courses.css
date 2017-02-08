@@ -1,0 +1,57 @@
+header.courses-header:before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(rgba(23,157,156,.8),rgba(23,157,156,.8)), url("../img/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(7px);
+    width: 100%;
+    height: 480px;
+    transition: all .3s ease-in-out;
+
+}
+header.courses-header:hover:before {
+    filter: blur(0px);
+}
+header.courses-header{
+    height: 480px;
+}
+.header-body {
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px 10px;
+    position: relative;
+    height: 200px;
+}
+.header-body h1 {
+ font-size: 15px;
+
+}
+.header-body p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+section.in-process {
+    background-color: #FFF;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+section.in-process .fa-cogs {
+    font-size: 100px;
+    color: #DADADA;
+}
+section.in-process span {
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #AAA;
+}

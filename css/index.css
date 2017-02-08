@@ -1,0 +1,356 @@
+header.mean {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/css_mac.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  min-height: 400px;
+}
+.header-body {
+    height: 275px;
+}
+.header-body.flex {
+    align-items: center;
+    justify-content: center;
+}
+.header-body .presentation {
+  width: 280px;
+  height: 140px;
+  border: 1px solid #fff;
+  position: relative;
+  text-align: center;
+}
+.presentation h1 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 10px 0px 0px 0px;
+}
+.presentation span {
+  font-size: 12px;
+}
+.presentation p {
+    display: inline-block;
+    width: 240px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+
+/*Estilos de sección*/
+
+/* ABOUT ME*/
+.about-me {
+    text-align: center;
+}
+.about-me .flex {
+    flex-wrap: wrap;
+}
+.about-me .greet {
+
+    color: #333333;
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+.greet .content {
+    width: 90%;
+    display: inline-block;
+    max-width: 380px;
+}
+.greet .photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: gray;
+    overflow: hidden;
+    margin-top: -35px;
+    display: inline-block;
+}
+.greet .photo img {
+    width: 100%;
+    height: auto;
+}
+
+.greet h1 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.greet p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+
+/* KNOWLADGE */
+
+.knowladge {
+    background-color: #FAFAFA;
+    color: #333;
+    height: 300px;
+    display: inline-block;
+    padding: 0px 50px;
+    position: relative;
+
+
+}
+
+.knowladge:before {
+    content: "";
+    position:absolute;
+    height: 100%;
+    width: 30%;
+    top: 0px;
+    left: 0px;
+    background:
+
+        url(../img/html5.png) top no-repeat,
+        url(../img/css.png) center no-repeat,
+        url(../img/js.png) bottom no-repeat;
+    background-size: 70px 70px ;
+    opacity: .4;
+
+}
+.knowladge:after {
+    content: "";
+    position:absolute;
+    height: 100%;
+    width: 30%;
+    top: 0px;
+    right: 0px;
+    background:
+
+        url(../img/nodejs.png) top no-repeat,
+        url(../img/angular.svg) center no-repeat,
+        url(../img/ruby.png) bottom no-repeat;
+    background-size: 70px 70px ;
+    opacity: .4;
+}
+.knowladge .text {
+    position: relative;
+    z-index: 5;
+}
+.knowladge h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.knowladge p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 15px 0 20px;
+}
+
+/* MY QUEST */
+
+.my-quest {
+    background-color: #4A4A4A;
+    height: 280px;
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+
+}
+.my-quest h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.my-quest p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 15px 0 20px;
+    font-weight: 300;
+}
+.my-quest a {
+    color: #179D9C;
+    font-size: 15px;
+    font-weight: 300;
+}
+.my-quest a span {
+    vertical-align: middle;
+}
+.my-quest a .fa-angle-right {
+    margin-left: 2px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+/* PROYECTOS */
+
+#projects {
+    color: #333;
+    text-align: center;
+    margin: 20px 0px;
+}
+#projects header {
+
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+#projects header h1 {
+    font-size: 20px;
+
+}
+#projects  header a {
+    font-size: 15px;
+    color: #179D9C;
+    font-weight: 600;
+
+}
+#projects a span {
+    vertical-align: middle;
+}
+#projects a .fa-angle-right {
+    margin-left: 2px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+#projects .personal-projects {
+    padding: 0px 10px 20px;
+}
+.personal-projects .project {
+    width: 300px;
+
+    background-color: #FAFAFA;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.project .image {
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.personal-projects .project:last-of-type {
+    margin-bottom: 0px;
+}
+.project .information {
+    padding: 20px 30px;
+    font-size: 15px;
+}
+.project .information p {
+    line-height: 20px;
+    margin: 10px 0px;
+    max-height: 100px;
+    overflow: hidden;
+    text-align: center;
+}
+.project .information a {
+    color: #9D1717 !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* CONTACTO */
+
+#contact {
+    background-color: #E8E8E8;
+    padding: 20px;
+    text-align: center;
+    color: #333333;
+}
+#contact header h1 {
+    font-size: 20px;
+}
+
+#contact .personal-data {
+    margin: 10px 0px 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+#contact .personal-data p {
+    line-height: 22px;
+}
+#contact form {
+    margin-top: 20px;
+    width: 95%;
+    display: inline-block;
+    max-width: 500px;
+}
+#contact form input {
+    height: 30px;
+    width: 250px;
+}
+#contact form input[type= "text"], #contact form textarea {
+
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(151, 151, 151 , .6);
+    width: 100%;
+}
+#contact form textarea {
+
+    height: 200px;
+
+
+    resize: none;
+}
+#contact .social-media {
+    margin-top: 15px;
+}
+#contact #linkedin-logo {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-color: #007BB5;
+    font-size: 30px;
+
+}
+#linkedin-logo  {
+    color: #fff;
+
+}
+#linkedin-logo a i {
+    vertical-align: middle;
+}
+#contact form input[type="submit"] {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    background-color: #179D9C;
+    cursor: pointer;
+
+}
+#contact form input[type="submit"]:active {
+    background-color: #0B5857;
+}
+
+@media screen and (min-width: 650px){
+    .about-me  .greet {
+        margin-bottom: 50px;
+    }
+    .about-me .knowladge, .about-me .my-quest {
+        flex-basis: 50%;
+        display: flex;
+        align-items: center;
+
+    }
+    .about-me .knowladge h2 {
+        display: none;
+
+    }
+
+    .about-me .my-quest {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 300px;
+
+    }
+    .about-me .my-quest h2 {
+        display: none;
+    }
+    #projects {
+        margin-top: 50px;
+    }
+
+}
