@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -10,41 +10,49 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
     <title>DiDream</title>
-  </head>
-  <body>
-    <header class="mean" >
-      <nav class="fixed">
-          <div class="container flex full-basis">
-            <div class="nav-icon">
-              <div class="mobile-nav-toggle">
-                <span></span>
-              </div>
-            </div>
-            <div class="logo">
-              <a href="/" >
-                <span class="d">
-                </span>
-              </a>
-            </div>
-            <div class="github-link" >
-              <a href="https://github.com/didream" target="_blank">
-                <i class="fa fa-github" aria-hidden="true"></i>
-                <span>DiDream</span>
-              </a>
-            </div>
-          </div>
-      </nav>
-      <div class="header-body flex">
-        <div class="presentation">
-          <h1>Alex Jimmy</h1>
-          <span>@DiDream</span>
-          <p>Estudiante de Ingeniería Informática en la Universidad de La Laguna</p>
+</head>
+<body>
+    <div class="mobile-nav">
+        <nav class="container justify-container flex full-basis">
+            <a data-section="about-me">SOBRE MÍ</a>
+            <a data-section="proyects">PROYECTOS</a>
+            <a data-section="contact">CONTACTO</a>
+        </nav>
 
+    </div>
+    <header class="mean" >
+        <nav class="fixed ">
+            <div class="container flex full-basis">
+                <div class="nav-icon">
+                    <div class="mobile-nav-toggle">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="/" >
+                        <span class="d">
+                        </span>
+                    </a>
+                </div>
+                <div class="github-link" >
+                    <a href="https://github.com/didream" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <span>DiDream</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="header-body flex">
+            <div class="presentation">
+                <h1>Alex Jimmy</h1>
+                <span>@DiDream</span>
+                <p>Estudiante de Ingeniería Informática en la Universidad de La Laguna</p>
+
+            </div>
         </div>
-      </div>
     </header>
 
-    <section class="about-me container  justify-container">
+    <section id="about-me" class="container justify-container">
         <div class="flex full-basis">
             <section class="greet">
                 <div class="content">
@@ -65,72 +73,75 @@
                         <strong>Ruby</strong>,
                         <strong>C</strong>,
                         <strong>C++</strong>)</span>, de los cuales he profundizado en aprender, de forma personal, Javascript y Ruby utilizando herramientas como <strong>NodeJS</strong> y <strong>Ruby on Rails</strong>, además de CSS, HTML, Angular.</p>
+                    </section>
+
                 </section>
-
-            </section>
-            <section class="my-quest">
-                <h2>Propósito</h2>
-                <p>Me gusta aprender cosas nuevas y mi propósito es convertirme en un desarrollador web completo, por lo que siempre estoy realizando cursos online y documentándome sobre las nuevas tecnologías que van apareciendo.</p>
-                <a href="html/courses.html">
-                    <span>Cursos realizados</span>
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </a>
-            </section>
-        </div>
-    </section>
-
-    <section id="projects">
-        <header>
-            <h1>PROYECTOS</h1>
-            <a href="html/ull.html">
-                <span>ULL</span>
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </a>
-        </header>
-
-        <div class="personal-projects">
-            <article class="project">
-                <div class="image">
-                    <img src="img/fondo.jpg" height="180px" alt="">
-                </div>
-
-                <section class="information">
-                    <h3>PROYECTO DE PRUEBA</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <a href="#">
-                        <span>Más información</span>
+                <section class="my-quest">
+                    <h2>Propósito</h2>
+                    <p>Me gusta aprender cosas nuevas y mi propósito es convertirme en un desarrollador web completo, por lo que siempre estoy realizando cursos online y documentándome sobre las nuevas tecnologías que van apareciendo.</p>
+                    <a href="courses.html">
+                        <span>Cursos realizados</span>
                         <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </a>
                 </section>
+            </div>
+        </section>
 
-            </article>
-        </div>
+        <section id="projects">
+            <header>
+                <h1>PROYECTOS</h1>
+                <a href="ull.html">
+                    <span>ULL</span>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+            </header>
+
+            <div class="personal-projects">
+                <article class="project">
+                    <div class="image">
+                        <img src="img/fondo.jpg" height="180px" alt="">
+                    </div>
+
+                    <section class="information">
+                        <h3>PROYECTO DE PRUEBA</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <a href="#">
+                            <span>Más información</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                    </section>
+
+                </article>
+            </div>
 
 
-    </section >
+        </section >
 
-    <section id="contact">
-        <header>
-            <h1>CONTACTO</h1>
-        </header>
-        <!-- <div class="personal-data">
-            <p>alexjimmy1993[at]hotmail.com <br>605333017</p>
+        <section id="contact">
+            <header>
+                <h1>CONTACTO</h1>
+            </header>
 
-        </div> -->
         <div class="social-media">
-            <a href="#" id="linkedin-logo">
+            <a href="https://www.linkedin.com/in/alex-jimmy-monta%C3%B1o-fuentes-325338112" id="linkedin-logo" target="_blank">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
         </div>
+        <div class="personal-data">
+            <p>605333017</p>
+            <a href="mailto:alexjimmy1993@hotmail.com">Enviar mensaje</a>
 
 
-        <form action="#" method="post">
+        </div>
+
+
+        <!-- <form action="#" method="post">
             <input type="text" name="name" placeholder="Nombre">
             <input type="text" name="email" placeholder="Correo electrónico">
             <textarea name="message"  placeholder="Mensaje" rows="8"></textarea>
             <input type="submit" value="Enviar" >
-        </form>
+        </form> -->
     </section>
-
-  </body>
+    <script src="js/index.js"></script>
+</body>
 </html>
