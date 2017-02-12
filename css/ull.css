@@ -26,6 +26,40 @@ header.courses-header{
     line-height: 20px;
 
 }
+
+/* Asignaturas */
+
+.subject {
+    width: 100%;
+    text-align: center;
+}
+.dsi-subject header {
+    padding: 15px;
+    background: #973689;
+    color: #fff;
+}
+.subject .projects-subject {
+    background-color: #DADADA;
+
+}
+.subject .projects-subject a {
+    color: #333;
+    display: block;
+
+
+}
+.subject .projects-subject a .project-subject {
+    padding: 10px;
+}
+.subject .projects-subject a:hover .project-subject:hover {
+    color: #333;
+    background-color: #BABABA;
+
+}
+
+
+
+
 section.in-process {
     background-color: #FFF;
     color: #AAA;
