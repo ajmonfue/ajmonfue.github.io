@@ -46,18 +46,18 @@ header.courses-header{
 .subject .projects-subject a {
     color: #333;
     display: block;
-
-
-}
-.projects-subject a .project-subject {
-
     background-color: #FAFAFA;
 }
-.projects-subject a:hover .project-subject {
+.projects-subject a:hover {
     color: #333;
-    background-color: #BABABA;
+    background-color: #DADADA;
+}
+.projects-subject a .project-subject {
+    max-width: 1000px;
+    margin: 0 auto;
 
 }
+
 .project-subject.flex {
     justify-content: space-between;
 
