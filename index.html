@@ -79,24 +79,23 @@
                 <section class="my-quest">
                     <h2>Propósito</h2>
                     <p>Me gusta aprender cosas nuevas y mi propósito es convertirme en un desarrollador web completo, por lo que siempre estoy realizando cursos online y documentándome sobre las nuevas tecnologías que van apareciendo.</p>
-                    <a href="courses.html">
+                    <!-- <a href="courses.html">
                         <span>Cursos realizados</span>
                         <i class="fa fa-angle-right" aria-hidden="true"></i>
-                    </a>
+                    </a> -->
                 </section>
             </div>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="container justify-container">
             <header>
-                <h1>PROYECTOS</h1>
-                <a href="ull.html">
-                    <span>ULL</span>
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </a>
+                <h1>PROYECTOS DE LA UNIVERSIDAD</h1>
+                <div class="projects-info">
+                    Trabajos realizados en el grado de Ingeniería Informatica, itinerario Tecnologias de la información. Agrupados por asignatura.
+                </div>
             </header>
 
-            <div class="personal-projects">
+            <!-- <div class="personal-projects">
                 <article class="project">
                     <div class="image">
                         <img src="img/fondo.jpg" height="180px" alt="">
@@ -112,8 +111,93 @@
                     </section>
 
                 </article>
-            </div>
+            </div> -->
+            <section class="subject dsi-subject">
+                <header class="name-subject">DESARROLLO DE SISTEMAS INFORMÁTICOS </header>
 
+                <section class="projects-subject">
+                    <a href="https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jimmy" target="_blanks">
+                        <article class="project-subject flex">
+                            <div class="number-project">
+                                1
+                            </div>
+                            <div class="info-project">
+                                <div  class="name-project">
+                                    Tareas iniciales
+                                </div>
+                                <span class="date-project">14/2/2017</span>
+                            </div>
+                            <div class="status-project">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                            </div>
+
+                        </article>
+                    </a>
+                    <a href="https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-fernando-jimmy" target="_blanks">
+                        <article class="project-subject flex">
+                            <div class="number-project">
+                                2
+                            </div>
+                            <div class="info-project">
+                                <div  class="name-project">
+                                    Primeros pasos en NodeJS
+                                </div>
+                                <span class="date-project">1/2/2017</span>
+                            </div>
+                            <div class="status-project">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                            </div>
+
+                        </article>
+                    </a>
+                </section>
+
+            </section>
+            <section class="subject dsi-subject">
+                <header class="name-subject">SEGURIDAD EN SISTEMAS INFORMÁTICOS </header>
+
+                <section class="projects-subject">
+                    <a href="https://github.com/DiDream/cifrado-vernam" target="_blanks">
+                        <article class="project-subject flex">
+                            <div class="number-project">
+                                1
+                            </div>
+                            <div class="info-project">
+                                <div  class="name-project">
+                                    Cifrado de Vernam
+                                </div>
+                                <span class="date-project">15/2/2017</span>
+                            </div>
+                            <div class="status-project">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                            </div>
+
+                        </article>
+                    </a>
+                    <a href="https://github.com/DiDream/cifrado-vigenere" target="_blanks">
+                        <article class="project-subject flex">
+                            <div class="number-project">
+                                2
+                            </div>
+                            <div class="info-project">
+                                <div  class="name-project">
+                                    Cifrado de Vigenere
+                                </div>
+                                <span class="date-project">21/2/2017</span>
+                            </div>
+                            <div class="status-project">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                            </div>
+
+                        </article>
+                    </a>
+                </section>
+
+            </section>
 
         </section >
 
@@ -121,27 +205,22 @@
             <header>
                 <h1>CONTACTO</h1>
             </header>
-
-        <div class="social-media">
-            <a href="https://www.linkedin.com/in/alex-jimmy-monta%C3%B1o-fuentes-325338112" id="linkedin-logo" target="_blank">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-        </div>
-        <div class="personal-data">
-            <p>605333017</p>
-            <a href="mailto:alexjimmy1993@hotmail.com">Enviar mensaje</a>
-
-
-        </div>
-
-
-        <!-- <form action="#" method="post">
-            <input type="text" name="name" placeholder="Nombre">
-            <input type="text" name="email" placeholder="Correo electrónico">
-            <textarea name="message"  placeholder="Mensaje" rows="8"></textarea>
-            <input type="submit" value="Enviar" >
-        </form> -->
-    </section>
+            <div class="personal-data">
+                <p>+34 605333017</p>
+                <a href="mailto:alexjimmy1993@hotmail.com">alexjimmy1993[at]hotmail.com</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/alex-jimmy-monta%C3%B1o-fuentes-325338112" id="linkedin-logo" target="_blank">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Nombre">
+                <input type="text" name="email" placeholder="Correo electrónico">
+                <textarea name="message"  placeholder="Mensaje" rows="8"></textarea>
+                <input type="submit" value="Enviar" >
+            </form>
+        </section>
     <script src="js/index.js"></script>
 </body>
 </html>
