@@ -91,14 +91,11 @@ header.mean {
     background-color: #FAFAFA;
     color: #333;
     height: 300px;
-    display: inline-block;
-    padding: 0px 50px;
-    position: relative;
-
-
 }
-
-.knowladge:before {
+.knowladge .container {
+    position: relative;
+}
+.knowladge .container:before {
     content: "";
     position:absolute;
     height: 100%;
@@ -114,7 +111,7 @@ header.mean {
     opacity: .4;
 
 }
-.knowladge:after {
+.knowladge .container:after {
     content: "";
     position:absolute;
     height: 100%;
@@ -149,8 +146,6 @@ header.mean {
     background-color: #4A4A4A;
     height: 280px;
     color: #fff;
-    display: inline-block;
-    padding: 0 20px;
 
 }
 .my-quest h2 {
@@ -182,12 +177,14 @@ header.mean {
 /* PROYECTOS */
 
 #projects {
-
     text-align: center;
+    width: 100%;
+    background-color: #973689;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 #projects header {
     padding: 20px 10px;
-    background-color: #973689;
     color: #fff;
 
 }
@@ -217,7 +214,6 @@ header.mean {
 .subject header {
     font-size: 15px;
     padding: 15px;
-    background: #973689;
     color: #fff;
 }
 .subject .projects-subject {
@@ -412,10 +408,12 @@ header.mean {
         margin-bottom: 50px;
     }
     #about-me .knowladge, #about-me .my-quest {
+        height: 250px;
+    }
+    #about-me .knowladge .container, #about-me .my-quest .container {
         display: flex;
         align-items: center;
         width: 100%;
-        height: 250px;
     }
     #about-me .knowladge h2 {
         display: none;
